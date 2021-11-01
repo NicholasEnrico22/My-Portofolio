@@ -1,0 +1,567 @@
+/* * {
+    outline: 1px red solid;
+  } */
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  html {
+    scroll-behavior: smooth;
+    background-color: rgb(50, 50, 50);
+  }
+
+body{
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-width: 960px;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    width: 1600px;
+    height: 77px;
+}
+
+.logo img{
+    width: 44px;
+    height: 44px;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1.3%;
+}
+
+.logo p{
+    color: #FFFFFF;
+
+    font-weight: bold;
+    font-size: 17.5px;
+    margin-top: -3.55%;
+    padding-left: 4.3%;
+}
+
+.navigasi{
+    height: 72px;
+}
+
+.navigasi nav{
+    margin-top: -2.5%;
+    padding-left: 60%;
+}
+
+.navigasi nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-size: 20px;
+    margin-right: 7.7%;
+}
+
+.navigasi nav a:hover{
+    color: yellow;
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+    
+    .header{
+        height: 70px;
+    }
+
+    .logo img{
+        margin-top: 0.75%;
+    }
+
+    .navigasi nav{
+        padding-left: 55%;
+        margin-top: -2.3%;
+    }
+
+    .navigasi nav a{
+        font-size: 18px;
+        margin-right: 6.7%;
+    }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+    .header{
+        height: 70px;
+    }
+
+    .logo img{
+        margin-top: 0.75%;
+    }
+
+    .navigasi nav{
+        padding-left: 50%;
+        margin-top: -2.3%;
+    }
+
+    .navigasi nav a{
+        font-size: 17px;
+        margin-right: 5.7%;
+    }
+}
+
+/* 130% */
+@media screen and (min-width : 1100px) and (max-width : 1199px){
+  
+    .header{
+        height: 65px;
+    }
+
+    .logo img{
+        margin-top: 0.5%;
+    }
+
+    .navigasi nav{
+        padding-left: 46%;
+        margin-top: -2.2%;
+    }
+
+    .navigasi nav a{
+        font-size: 16px;
+        margin-right: 4.7%;
+    }
+}
+
+/* 140% */
+@media screen and (max-width : 1099px){
+  
+    .header{
+        height: 60px;
+    }
+
+    .logo img{
+        margin-top: 0.5%;
+    }
+
+    .navigasi nav{
+        padding-left: 42%;
+        margin-top: -2.5%;
+    }
+
+    .navigasi nav a{
+        font-size: 15px;
+        margin-right: 4.2%;
+    }
+}
+
+/* PEMISAH */
+
+.pemisah{
+    height: 30px;
+    background-color: rgb(50, 50, 50);
+}
+
+/* PANEL 2 */
+
+.panel2{
+    height: 200px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening{
+    position: relative;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+
+    color: rgb(255, 255, 255); 
+    padding-top: 3.03%;
+}
+
+.opening p{
+    text-align: center;
+}
+
+/* PANEL ABOUT 1 */
+
+.panel_about1{
+    height: 550px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening1{
+    position: relative;
+    width: 500px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+
+    color: yellow;
+    opacity: 88%;
+
+    padding-left: 44%;
+    padding-top: 7%;
+}
+
+.abstrak{
+    position: relative;
+    width: 700px;
+    height: 300px;
+
+    font-style: normal;
+    font-size: 20px;
+
+    color: #e7e5e5;
+
+    padding-left: 44%;
+    letter-spacing: 0.05em;
+    padding-top: 2.5%;
+}
+
+.abstrak a{
+    color: yellow;
+    opacity: 55%;
+    text-decoration: underline;
+}
+
+.main_pic img{
+    position: relative;
+    width: 350px;
+    height: 450px;
+
+    margin-top: -30%;
+    padding-left: 12.3%;
+}
+
+/* PANEL ABOUT 2 */
+
+.panel_about2{
+    height: 550px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening2{
+    position: relative;
+    width: 500px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: white;
+    opacity: 88%;
+
+    padding-left: 12.5%;
+    padding-top: 1%;
+}
+
+.edu img{
+    height: 100px;
+    width: 100px;
+}
+
+/* PANEL ABOUT 3 */
+
+.panel_about3{
+    height: 550px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening3{
+    position: relative;
+    width: 500px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: white;
+    opacity: 88%;
+
+    padding-left: 12.5%;
+    padding-top: 1%;
+}
+
+.org img{
+    height: 100px;
+    width: 100px;
+}
+
+/* PANEL ABOUT 4 */
+
+.panel_about4{
+    height: 550px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening4{
+    position: relative;
+    width: 500px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: white;
+    opacity: 88%;
+
+    padding-left: 12.5%;
+    padding-top: 1%;
+}
+
+.work img{
+    height: 100px;
+    width: 100px;
+}
+
+/* FOOTER */
+
+/* FOOTER */
+
+.footer{
+    height: 300px;
+    background-color: rgb(15, 15, 15);
+}
+
+.judul_footer{
+    position: relative;
+    width: 400px;
+    height: 75px;
+    margin-left: 12.5%;
+    padding-top: 1.1%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+
+    color: yellow;
+}
+
+.footer_email p{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    margin-left: 12.5%;
+    margin-top: -0.1%;
+
+    font-style: normal;
+    font-size: 25px;
+
+    color: white;
+}
+
+.footer_email a{
+    position: relative;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    margin-left: 12.5%;
+    margin-top: -10%;
+}
+
+.footer_icons{
+    position: relative;
+    margin-left: 12.5%;
+}
+
+.footer_ig img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-top: 1%;
+}
+
+.footer_wa img{
+    position: relative;
+    height:44px;
+    width: 44px;
+    margin-left: 3.3%;
+}
+
+.footer_linkedin img{
+    position: relative;
+    height:44px;
+    width: 44px;
+    margin-left: 3.3%;
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+    
+    .footer{
+        height: 270px;
+    }
+    
+    .judul_footer{
+        padding-top: 0.2%;
+        font-size: 31.5px;
+    }
+    
+    .footer_email p{
+        font-size: 22.5px;
+    }
+    
+    .footer_email a{
+        font-size: 18px;
+    }
+    
+    .footer_ig img{
+        height: 36px;
+        width: 36px;
+    }
+    
+    .footer_wa img{
+        height:40px;
+        width: 40px;
+    }
+    
+    .footer_linkedin img{
+        height:40px;
+        width: 40px;
+    }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+    .footer{
+        height: 240px;
+    }
+    
+    .judul_footer{
+        padding-top: 0.4%;
+        font-size: 28px;
+        margin-left: 10.5%;
+    }
+    
+    .footer_email p{
+        font-size: 20px;
+        margin-left: 10.5%;
+        height: 40px;
+    }
+    
+    .footer_email a{
+        font-size: 16px;
+        margin-left: 10.5%;
+    }
+    
+    .footer_icons{
+        margin-left: 10.5%;
+    }
+    
+    .footer_ig img{
+        height: 32px;
+        width: 32px;
+    }
+    
+    .footer_wa img{
+        height:35px;
+        width: 35px;
+    }
+    
+    .footer_linkedin img{
+        height:35px;
+        width: 35px;
+    }
+}
+
+/* 130% */
+@media screen and (min-width : 1100px) and (max-width : 1199px){
+  
+    .footer{
+        height: 210px;
+    }
+    
+    .judul_footer{
+        padding-top: 0.6%;
+        font-size: 24.5px;
+        margin-left: 9.5%;
+        height: 60px;
+    }
+    
+    .footer_email p{
+        font-size: 17.5px;
+        margin-left: 9.5%;
+        height: 30px;
+    }
+    
+    .footer_email a{
+        font-size: 14px;
+        margin-left: 9.5%;
+    }
+    
+    .footer_icons{
+        margin-left: 9.5%;
+    }
+    
+    .footer_ig img{
+        height: 28px;
+        width: 28px;
+    }
+    
+    .footer_wa img{
+        height:31px;
+        width: 31px;
+    }
+    
+    .footer_linkedin img{
+        height:31px;
+        width: 31px;
+    }
+}
+
+/* 140% */
+@media screen and (max-width : 1099px){
+  
+    .footer{
+        height: 180px;
+    }
+    
+    .judul_footer{
+        padding-top: 0.8%;
+        font-size: 21px;
+        margin-left: 8.5%;
+        height: 50px;
+    }
+    
+    .footer_email p{
+        font-size: 15px;
+        margin-left: 8.5%;
+        height: 20px;
+    }
+    
+    .footer_email a{
+        font-size: 12px;
+        margin-left: 8.5%;
+    }
+    
+    .footer_icons{
+        margin-left: 8.5%;
+    }
+    
+    .footer_ig img{
+        height: 24px;
+        width: 24px;
+    }
+    
+    .footer_wa img{
+        height:27px;
+        width: 27px;
+    }
+    
+    .footer_linkedin img{
+        height:27px;
+        width: 27px;
+    }
+}
