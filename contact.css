@@ -1,0 +1,461 @@
+/* * {
+    outline: 1px red solid;
+  } */
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(50, 50, 50);
+}
+
+body{
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-width: 960px;
+}
+
+.container{
+    max-width: 1600px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    width: 1600px;
+    height: 77px;
+}
+
+.logo img{
+    width: 44px;
+    height: 44px;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1.3%;
+}
+
+.logo p{
+    color: #FFFFFF;
+
+    font-weight: bold;
+    font-size: 17.5px;
+    margin-top: -3.55%;
+    padding-left: 4.3%;
+}
+
+.navigasi{
+    height: 72px;
+}
+
+.navigasi nav{
+    margin-top: -2.5%;
+    padding-left: 60%;
+}
+
+.navigasi nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-size: 20px;
+    margin-right: 7.7%;
+}
+
+.navigasi nav a:hover{
+    color: yellow;
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+    
+    .header{
+        height: 70px;
+    }
+
+    .logo img{
+        margin-top: 0.75%;
+    }
+
+    .navigasi nav{
+        padding-left: 55%;
+        margin-top: -2.3%;
+    }
+
+    .navigasi nav a{
+        font-size: 18px;
+        margin-right: 6.7%;
+    }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+    .header{
+        height: 70px;
+    }
+
+    .logo img{
+        margin-top: 0.75%;
+    }
+
+    .navigasi nav{
+        padding-left: 50%;
+        margin-top: -2.3%;
+    }
+
+    .navigasi nav a{
+        font-size: 17px;
+        margin-right: 5.7%;
+    }
+}
+
+/* 130% */
+@media screen and (min-width : 1100px) and (max-width : 1199px){
+  
+    .header{
+        height: 65px;
+    }
+
+    .logo img{
+        margin-top: 0.5%;
+    }
+
+    .navigasi nav{
+        padding-left: 46%;
+        margin-top: -2.2%;
+    }
+
+    .navigasi nav a{
+        font-size: 16px;
+        margin-right: 4.7%;
+    }
+}
+
+/* 140% */
+@media screen and (max-width : 1099px){
+  
+    .header{
+        height: 60px;
+    }
+
+    .logo img{
+        margin-top: 0.5%;
+    }
+
+    .navigasi nav{
+        padding-left: 42%;
+        margin-top: -2.5%;
+    }
+
+    .navigasi nav a{
+        font-size: 15px;
+        margin-right: 4.2%;
+    }
+}
+
+/* PANEL */
+
+.panel{
+    height: 739px;
+    background-color: rgb(20, 20, 20);
+}
+
+.opening{
+    position: relative;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+
+    color: rgb(255, 255, 255); 
+    padding-top: 4.5%;
+}
+
+.opening p{
+    text-align: center;
+}
+
+.footer_email, .footer_wa{
+    width: 50%;
+    margin-top: 8%;
+}
+
+.footer_wa{
+    margin-top: 6%;
+}
+
+.footer_ig, .footer_linkedin{
+    width: 50%;
+    float: right;
+    margin-top: -6.15%;
+}
+
+.footer_email img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-left: 25%;
+}
+
+.footer_email p{
+    color: white;
+    font-size: 30px;
+    margin-top: -9.7%;
+    margin-left: 43%;
+}
+
+.footer_wa img{
+    position: relative;
+    height:100px;
+    width: 100px;
+    margin-left: 25%;
+}
+
+.footer_wa p{
+    color: white;
+    font-size: 30px;
+    margin-top: -9.5%;
+    margin-left: 43%;
+}
+
+.footer_ig img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-left: 15%;
+}
+
+.footer_ig p{
+    color: white;
+    font-size: 30px;
+    margin-top: -9.5%;
+    margin-left: 33%;
+}
+.footer_linkedin img{
+    position: relative;
+    height:100px;
+    width: 100px;
+    margin-left: 15%;
+}
+
+.footer_linkedin p{
+    color: white;
+    font-size: 30px;
+    margin-top: -9.5%;
+    margin-left: 33%;
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+    
+    .panel{
+        height: 677px;
+    }
+    
+    .opening{
+        font-size: 55px;
+    }
+    
+    .footer_email img{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .footer_email p{
+        font-size: 27px;
+    }
+    
+    .footer_wa img{
+        height:90px;
+        width: 90px;
+    }
+    
+    .footer_wa p{
+        font-size: 27px;
+    }
+    
+    .footer_ig img{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .footer_ig p{
+        font-size: 27px;
+    }
+    .footer_linkedin img{
+        height:90px;
+        width: 90px;
+    }
+    
+    .footer_linkedin p{
+        font-size: 27px;
+    }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+    .panel{
+        height: 615px;
+    }
+    
+    .opening{
+        font-size: 50px;
+    }
+    
+    .footer_email img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .footer_email p{
+        font-size: 24px;
+        margin-left: 40%;
+    }
+    
+    .footer_wa img{
+        height:80px;
+        width: 80px;
+    }
+    
+    .footer_wa p{
+        font-size: 24px;
+        margin-left: 40%;
+    }
+    
+    .footer_ig img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .footer_ig p{
+        font-size: 24px;
+        margin-left: 30%;
+    }
+    .footer_linkedin img{
+        height:80px;
+        width: 80px;
+    }
+    
+    .footer_linkedin p{
+        font-size: 24px;
+        margin-left: 30%;
+    }
+}
+
+/* 130% */
+@media screen and (min-width : 1100px) and (max-width : 1199px){
+  
+    .panel{
+        height: 570px;
+    }
+    
+    .opening{
+        font-size: 45px;
+    }
+    
+    .footer_email img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_email p{
+        font-size: 21px;
+        margin-left: 40%;
+        margin-top: -9.4%;
+    }
+    
+    .footer_wa img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_wa p{
+        font-size: 21px;
+        margin-left: 40%;
+        margin-top: -9%;
+    }
+    
+    .footer_ig img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_ig p{
+        font-size: 21px;
+        margin-left: 30%;
+        margin-top: -9%;
+    }
+    .footer_linkedin img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_linkedin p{
+        font-size: 21px;
+        margin-left: 30%;
+        margin-top: -9%;
+    }
+}
+
+/* 140% */
+@media screen and (max-width : 1099px){
+  
+    .panel{
+        height: 522px;
+    }
+    
+    .opening{
+        font-size: 45px;
+    }
+    
+    .footer_email img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_email p{
+        font-size: 21px;
+        margin-left: 40%;
+        margin-top: -9.4%;
+    }
+    
+    .footer_wa img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_wa p{
+        font-size: 21px;
+        margin-left: 40%;
+        margin-top: -9%;
+    }
+    
+    .footer_ig img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_ig p{
+        font-size: 21px;
+        margin-left: 30%;
+        margin-top: -9%;
+    }
+    .footer_linkedin img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .footer_linkedin p{
+        font-size: 21px;
+        margin-left: 30%;
+        margin-top: -9%;
+    }
+}
